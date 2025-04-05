@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now - SK Cleaning Equipments</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Order Now</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="order.html">Order Now</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="order-form">
+        <h2>Place Your Order</h2>
+        <form action="https://formspree.io/f/YOUR_EMAIL_HERE" method="POST">
+            <label>Name:</label>
+            <input type="text" name="name" required>
+            
+            <label>Address:</label>
+            <textarea name="address" required></textarea>
+            
+            <label>Phone Number:</label>
+            <input type="text" name="phone" required>
+            
+            <label>Product Quantity:</label>
+            <input type="number" name="quantity" required>
+            
+            <button type="submit">Submit Order</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 SK Cleaning Equipments. All rights reserved.</p>
+    </footer>
+</body>
+</html>
